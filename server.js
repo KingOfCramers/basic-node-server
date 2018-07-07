@@ -11,7 +11,7 @@ function onRequest(request, response){
         } else {
             response.write(data); // The .write method lets you pass html files.
         }
-        response.end(); // End the response.
+        response.end(); // End the response. Returns the response to the http.createServer function below.
 
     });
 }
